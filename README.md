@@ -45,7 +45,7 @@ sudo mkdir /boot/efi/EFI/refind/themes
 
 sudo cp -rf rEFInd-sunset /boot/efi/EFI/refind/themes/
 
-echo "include themes/rEFInd-sunset/theme.conf" >> /boot/efi/EFI/refind/refind.conf
+sudo echo "include themes/rEFInd-sunset/theme.conf" >> /boot/efi/EFI/refind/refind.conf
 ```
 
 
