@@ -37,3 +37,15 @@ Other examples are in the `refind.conf` file.
 ### Attributions
 
 OS Icons are from [munlik's](https://github.com/munlik/refind-theme-regular) repository and self made.
+
+## Usage example:
+
+```
+sudo mkdir /boot/efi/EFI/refind/themes
+
+sudo cp -rf rEFInd-sunset /boot/efi/EFI/refind/themes/
+
+echo "include themes/rEFInd-sunset/theme.conf" >> /boot/efi/EFI/refind/refind.conf
+```
+
+
